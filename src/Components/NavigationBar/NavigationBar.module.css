@@ -1,0 +1,101 @@
+.main{
+    width: 75px;
+    height:450px;
+    position: absolute;
+    left: 313px;
+    top: 135px;
+    z-index: 1;
+}
+
+.s1{
+    background-color: #1d252c;
+    height: 120px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+        .i1{
+            font-size:35px;
+            color: aliceblue;
+            display: block;
+            margin-bottom: -20px;
+            cursor: pointer;
+
+        }
+        .i2{
+            font-size: 21px;
+            color: aliceblue;
+            display: block;
+            margin-top: 35px;
+            cursor: pointer;
+        }
+
+.s2{
+    background-color: #1d252c;
+    height: 350px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    width: 75px;
+}
+
+
+.bi{
+    font-size: 21px;
+    color: aliceblue;
+    display: block;
+    margin-top: 35px;
+}
+
+.i{
+    font-size: 18px;
+    color: aliceblue;
+    display: block;
+    cursor: pointer;
+    /* margin-top: 34px; */
+}
+
+.navlab{
+    font-family: "Space Grotesk", sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+.hr {
+	width: 100%;
+	height: 1px;
+	display: block;
+	position: relative;
+	margin-bottom: 0em;
+	padding: 0.9em 0;
+}
+
+.hr:after, .hr:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 1px;
+	bottom: 50%;
+	left: 0;
+}
+
+.hr.anim:before {
+	background: linear-gradient(90deg,#ffffff00 10% , #0d101300 25%, #FFFFFF );
+	background-size: 150px;
+	background-position: center;
+	z-index: 1;
+	animation: bar 120s linear infinite;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
